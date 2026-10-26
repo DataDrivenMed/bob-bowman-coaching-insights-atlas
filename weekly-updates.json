@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "contentUpdated": "2026-10-26",
+  "lastChecked": "2026-10-26T13:19:00-05:00",
+  "checkpoint": {
+    "latestCheckedAuthorRoot": "2114396065353089328",
+    "previousArchiveCheckpoint": "2114011265265774929",
+    "overlapDays": 14,
+    "note": "Initial incremental check reaches existing Oct24 checkpoint. Future weekly checks backfill a 14-day overlap; no completeness guarantee."
+  },
+  "threads": [
+    {
+      "id": "thread-2114396065353089328",
+      "sample": false,
+      "status": "ready",
+      "title": "Write the big dream, then specify the daily work",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "url": "https://x.com/coach_bowman/status/2114396065353089328",
+      "summary": "Bowman uses Phelps' early goal sheet to separate a large motivating dream from seasonal targets and specific practice actions. Write the ambition down, keep it visible, and turn it into a small action you can take next.",
+      "themes": [
+        "Goals",
+        "Practice"
+      ],
+      "ideas": [
+        "Dream goals",
+        "Specific daily actions",
+        "Visible reminders"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2114396065353089328",
+          "summary": "Recalls an early goal sheet from Phelps that separated the stated Olympic goal from a more ambitious private dream."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2114396065613127700",
+          "summary": "Describes the dream of Olympic gold that Phelps wrote and crossed out."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2114396065877377173",
+          "summary": "Explains that a distant ambition can motivate a young athlete before it seems attainable."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2114396066082906600",
+          "summary": "Breaks the goal sheet into a dream, a seasonal target and concrete practice actions."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2114396066397540838",
+          "summary": "Contrasts a broad motivating dream with precise daily goals."
+        },
+        {
+          "order": 6,
+          "url": "https://x.com/coach_bowman/status/2114396066678493516",
+          "summary": "Uses a visible goal sheet to keep the goal present in everyday life."
+        },
+        {
+          "order": 7,
+          "url": "https://x.com/coach_bowman/status/2114396066883960993",
+          "summary": "Encourages writing down the large ambition and then taking the first small action."
+        }
+      ],
+      "provenance": "Read directly on the canonical X thread on 2026-10-26: root plus six author continuations, cross-checked against the public mirror with-replies timeline. Third-party reply excluded. Seven readable author posts support this sequence; not an account-wide completeness claim."
+    }
+  ],
+  "archiveLedger": [
+    {
+      "id": "2114396065353089328",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396065353089328",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 1",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396065613127700",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396065613127700",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 2",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396065877377173",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396065877377173",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 3",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396066082906600",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396066082906600",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 4",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396066397540838",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396066397540838",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 5",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396066678493516",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396066678493516",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 6",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114396066883960993",
+      "author": "coach_bowman",
+      "url": "https://x.com/coach_bowman/status/2114396066883960993",
+      "date": "2026-10-25",
+      "dateProvenance": "Canonical X root displays Oct 25, 2026; six continuations display Oct 25.",
+      "kind": "Authored post",
+      "title": "Authored post · goal-sheet sequence 7",
+      "note": "Canonical X text checked; concise summary linked in the reading collection. No full source text reproduced."
+    },
+    {
+      "id": "2114333026222055634",
+      "author": "Justinsua",
+      "url": "https://xitter.cf/Justinsua/status/2114333026222055634#m",
+      "date": "2026-10-25",
+      "dateProvenance": "Public mirror timeline displayed Oct 25; original posting date not independently checked on X.",
+      "kind": "Repost",
+      "title": "Repost · third-party source record",
+      "note": "Mirror marks this as a coach_bowman repost of Justinsua. Not an original Bowman lesson; linked image not interpreted."
+    }
+  ],
+  "checkNote": "Canonical profile and full Oct25 thread checked against the public mirror with-replies timeline, which reaches the existing Oct24 checkpoint. One new sourced summary added. No account-wide completeness claim.",
+  "gaps": [
+    "Mirror discovery can omit items; reaching a known checkpoint does not rule out older gaps.",
+    "Deleted/protected posts, hidden replies, unread images/video and unsurfaced thread parts remain outside verified coverage."
+  ]
+}
