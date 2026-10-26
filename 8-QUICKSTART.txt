@@ -1,0 +1,20 @@
+BOB BOWMAN COACHING INSIGHTS ATLAS
+
+1. Unzip this folder.
+2. Read README.md for GitHub Pages publishing steps.
+3. Upload the files INSIDE this folder to the root of your public repository.
+4. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. Open the actual site link GitHub displays.
+
+NEXT THREAD
+Use Sources & updates > Make an entry with the helper.
+Download its JSON. Copy the object into the threads array in threads.json.
+Update the top-level updated date. Commit. All views use the same data.
+
+NOTES
+Your notes are local to this browser/device, not part of the public collection.
+Export notes separately before changing browser or clearing data.
+
+SCOPE
+Independent curated notebook. Not official or endorsed. Manual updates only.
+See Sources & updates for exact recovered coverage and known gaps.

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An independent, curated notebook for exploring Bob Bowman's public coaching threads. Not affiliated with or endorsed by Bob Bowman.">
+<title>Bob Bowman Coaching Insights Atlas</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+</head>
+<body><a class="skip" href="#atlas-main">Skip to notebook</a><div id="atlas"><p class="loading">Loading the notebook...</p></div>
+<noscript>This notebook needs JavaScript for its views. Read or download <a href="./threads.json">the thread data</a> directly.</noscript>
+<script type="module">
+import { mountAtlas } from './app.js';
+const root = document.getElementById('atlas');
+fetch('./threads.json').then(r => {if (!r.ok) throw Error('Could not load threads.json'); return r.json();})
+.then(data => mountAtlas(root, data)).catch(error => {
+  root.replaceChildren(); const heading=document.createElement('h1'); heading.textContent='The notebook could not load';
+  const p=document.createElement('p'); p.textContent='Check that threads.json is valid JSON and sits beside index.html. Opening this file directly may block data loading; use GitHub Pages or the local preview instructions in README.md. '+error.message;
+  root.append(heading,p);
+});
+</script></body></html>
