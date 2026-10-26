@@ -9,7 +9,7 @@
 <body><a class="skip" href="#atlas-main">Skip to notebook</a><div id="atlas"><p class="loading">Loading the notebook...</p></div>
 <noscript>This notebook needs JavaScript for its views. Read or download <a href="./threads.json">the thread data</a> directly.</noscript>
 <script type="module">
-import { mountAtlas } from './app.js';
+import { mountAtlas } from './app.js?v=20261026-weekly';
 const root = document.getElementById('atlas');
 const readJSON = async path => { const r=await fetch(path,{cache:'no-cache'}); if(!r.ok) throw Error('Could not load '+path); return r.json(); };
 const unique = (items,key) => [...new Map(items.map(x=>[x[key],x])).values()];
