@@ -56,9 +56,9 @@ This local preview tool is optional, not a deployed backend. No data leaves your
 2. Enter the original thread link, a unique ID and the posting date if verified. If you cannot read the thread, select **Text needed**. Do not invent a date or summary.
 3. If you have read the full text, select Ready and write a short summary in your own words. Add comma-separated themes and ideas. Use identical idea/theme wording when a new thread supports an existing label.
 4. Download the entry JSON. This is just a local file, not an upload or a published update.
-5. In GitHub, open `threads.json` and click the pencil/edit button. Find the `threads` array near the bottom. Copy the downloaded `{ ... }` object into that array. Put a comma between entries, never after the last entry.
-6. Change the top-level `updated` date to today's date in `YYYY-MM-DD` format.
-7. Update `collectionNote`, `sourceChecklist` and any coverage ledger to describe the collection honestly.
+5. In GitHub, open `weekly-updates.json` and click the pencil/edit button. Find the `threads` array near the bottom. Copy the downloaded `{ ... }` object into that array. Put a comma between entries, never after the last entry.
+6. Change the top-level `contentUpdated` date to today's date in `YYYY-MM-DD` format.
+7. Update `lastChecked`, `checkNote`, `checkpoint` and `gaps` to describe the collection honestly.
 8. Commit the file. The cards, themes, timeline and graph will use the new entry automatically after GitHub Pages republishes. You do not edit `app.js`.
 9. Check the live site. If a JSON error appears, return to the edit and check commas, straight double quotes, brackets and duplicate IDs. You can restore the last working version from GitHub history. Do not paste private data into an online JSON validator.
 
@@ -79,11 +79,11 @@ Copy the object from `thread-entry-template.json` into the `threads` array. Repl
 - `posts`: optional ordered, concise post summaries, e.g. `[{"order":1,"url":"original first post URL","summary":"Your concise summary."},{"order":2,"url":"original second post URL","summary":"Your concise summary."}]`. Keep positive, increasing order numbers and preserve the supplied sequence. Do not insert a full verbatim thread.
 - `provenance`: explain where readable text came from and any uncertainty, in plain language.
 
-Keep ALL thread content in `threads.json`. The template is a blank structural aid, not a second live content source.
+Keep the original archive in `threads.json` unchanged; new entries go in the cumulative `weekly-updates.json`. The template is a blank structural aid, not a live content source.
 
 ## Edit a summary
 
-Open `threads.json` in GitHub, find the entry by ID or title, and edit only the `summary` text between its double quotes. Escape any literal double quote inside the text with a backslash, or avoid quotations. Update `updated`, commit and check the published site. A straight apostrophe needs no escaping in JSON. Keep the source URL and attribution attached to the summary.
+For a weekly addition, open `weekly-updates.json` in GitHub, find the entry by ID or title, and edit only the `summary` text between its double quotes. Escape any literal double quote inside the text with a backslash, or avoid quotations. Update `contentUpdated`, commit and check the published site. A straight apostrophe needs no escaping in JSON. Keep the source URL and attribution attached to the summary.
 
 ## Notes, exports and privacy
 
@@ -107,13 +107,13 @@ Branch/folder publishing reference: https://docs.github.com/en/pages/getting-sta
 
 ## Coverage and source ledger
 
-`threads.json` can also contain `coverage` (a research-scope note with `title`, `note`, `facts`, `sources` and `gaps`) and `archiveLedger` (account-item metadata with `url`, `date`, `title`, `kind`, `note`). These remain in the same content file. The Sources view shows this ledger with its own search; up to 100 matching records are displayed at once and all records are in the data download. A recovered repost or unreadable link is not silently promoted into a fully sourced coaching thread. The research coverage date is not an individual post date.
+`threads.json` can also contain `coverage` (a research-scope note with `title`, `note`, `facts`, `sources` and `gaps`) and `archiveLedger` (account-item metadata with `url`, `date`, `title`, `kind`, `note`). The preserved original archive holds its baseline coverage; weekly additions include their own metadata and check notes. The Sources view shows this ledger with its own search; up to 100 matching records are displayed at once and all records are in the data download. A recovered repost or unreadable link is not silently promoted into a fully sourced coaching thread. The research coverage date is not an individual post date.
 
 ## This edition's research status
 
 This package has not been uploaded to a GitHub repository or deployed on GitHub Pages on your behalf. It is ready for you to publish using the instructions above. The separate hosted preview demonstrates the interface; its restricted browser-storage environment may show session-only notes. The standalone Pages version uses browser localStorage as described.
 
-The exact current research count and ID-derived UTC range are recorded in the `coverage` object in `threads.json` and in the live Source desk. This is not a complete account export. Recovered chronology is derived from X IDs, not a guarantee of independently displayed posting dates. Some recent ancestor posts also have mirror-displayed UTC timestamps. Full source text was used for research but is not distributed in this site package. Search errors are recorded as gaps, not evidence of absent posts.
+The baseline research count and ID-derived UTC range are recorded in `threads.json`; current combined counts and weekly check notes appear in the live Source desk. This is not a complete account export. Recovered chronology is derived from X IDs, not a guarantee of independently displayed posting dates. Some recent ancestor posts also have mirror-displayed UTC timestamps. Full source text was used for research but is not distributed in this site package. Search errors are recorded as gaps, not evidence of absent posts.
 
 
 ## Automatic weekly refresh
