@@ -11,8 +11,22 @@
 <script type="module">
 import { mountAtlas } from './app.js';
 const root = document.getElementById('atlas');
-fetch('./threads.json').then(r => {if (!r.ok) throw Error('Could not load threads.json'); return r.json();})
-.then(data => mountAtlas(root, data)).catch(error => {
+const readJSON = async path => { const r=await fetch(path,{cache:'no-cache'}); if(!r.ok) throw Error('Could not load '+path); return r.json(); };
+const unique = (items,key) => [...new Map(items.map(x=>[x[key],x])).values()];
+Promise.all([readJSON('./threads.json'),readJSON('./weekly-updates.json').then(w=>{if(w.schemaVersion!==1 || !Array.isArray(w.threads) || !Array.isArray(w.archiveLedger)) throw Error('Invalid weekly data');return w;}).catch(()=>null)])
+.then(([data,weekly]) => {
+  if (weekly) {
+    if (weekly.schemaVersion!==1 || !Array.isArray(weekly.threads) || !Array.isArray(weekly.archiveLedger)) throw Error('Invalid weekly data');
+    data.threads=unique([...data.threads,...weekly.threads],'id');
+    data.archiveLedger=unique([...data.archiveLedger,...weekly.archiveLedger],'id');
+    data.updated=weekly.contentUpdated || data.updated;
+    data.weeklyUpdate=weekly;
+    const prior=data.coverage;
+    data.coverage={...prior,title:'Archive and weekly update coverage',note:prior.note+' Weekly refreshes add readable-source-supported summaries, not a complete X feed.',facts:[...prior.facts.map(x=>'Original archive: '+x),'Current combined collection: '+data.threads.filter(x=>!x.sample).length+' sourced summaries; '+data.archiveLedger.length+' recovered source records.','Last checked: '+weekly.lastChecked+'. Content updated: '+weekly.contentUpdated+'.',weekly.checkNote],gaps:unique([...(prior.gaps||[]).map(note=>({note})),...(weekly.gaps||[]).map(note=>({note}))],'note').map(x=>x.note)};
+  }
+  mountAtlas(root,data);
+  if (!weekly) {const p=document.createElement('p');p.className='status';p.textContent='Weekly update data is unavailable. Showing the preserved original archive; this is not a no-new-posts result.';root.prepend(p);}
+}).catch(error => {
   root.replaceChildren(); const heading=document.createElement('h1'); heading.textContent='The notebook could not load';
   const p=document.createElement('p'); p.textContent='Check that threads.json is valid JSON and sits beside index.html. Opening this file directly may block data loading; use GitHub Pages or the local preview instructions in README.md. '+error.message;
   root.append(heading,p);
