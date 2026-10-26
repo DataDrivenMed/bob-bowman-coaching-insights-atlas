@@ -1,13 +1,14 @@
 # Bob Bowman Coaching Insights Atlas
 
-A portable, independent reading notebook. Not official, affiliated with, or endorsed by Bob Bowman. All site code is plain HTML, CSS and JavaScript. Content lives in `threads.json`. There is no build step, API key, server account, database, graph library, CDN, paid service or automatic X watcher.
+A portable, independent reading notebook. Not official, affiliated with, or endorsed by Bob Bowman. All site code is plain HTML, CSS and JavaScript. Original archive content lives in `threads.json`; approved weekly additions live in `weekly-updates.json`. There is no build step, API key, server account, database, graph library, CDN, paid service or site-hosted X watcher.
 
 ## What is included
 
 - `index.html`: site entry point
 - `styles.css`: responsive editorial layout
 - `app.js`: views, SVG graph, filters, entry helper and local notes
-- `threads.json`: ALL publishable thread content, dates, source links and coverage notes
+- `threads.json`: original archive content, dates, source links and coverage notes
+- `weekly-updates.json`: cumulative automatic weekly additions and check coverage
 - `thread-entry-template.json`: copyable blank entry
 - `favicon.svg`: original illustrative swimming-lane icon
 - `atlas-art.png`: original decorative swimming-lane illustration, not a photograph or evidence
@@ -113,3 +114,10 @@ Branch/folder publishing reference: https://docs.github.com/en/pages/getting-sta
 This package has not been uploaded to a GitHub repository or deployed on GitHub Pages on your behalf. It is ready for you to publish using the instructions above. The separate hosted preview demonstrates the interface; its restricted browser-storage environment may show session-only notes. The standalone Pages version uses browser localStorage as described.
 
 The exact current research count and ID-derived UTC range are recorded in the `coverage` object in `threads.json` and in the live Source desk. This is not a complete account export. Recovered chronology is derived from X IDs, not a guarantee of independently displayed posting dates. Some recent ancestor posts also have mirror-displayed UTC timestamps. Full source text was used for research but is not distributed in this site package. Search errors are recorded as gaps, not evidence of absent posts.
+
+
+## Automatic weekly refresh
+
+The existing GitHub Pages URL stays unchanged. Weekly checks are arranged for Monday mornings, America/Chicago. This is a best-effort sourced collection, not a complete X feed. The original `threads.json` archive stays untouched. `weekly-updates.json` holds cumulative new concise summaries, source metadata, last-check time, content-update date, checkpoint and gaps. The loader deduplicates IDs and combines both files for every view and Download thread data. Browser-local personal notes stay separate and are never published.
+
+A failed source check must not be reported as no new posts. Failed or unverified changes are not published. If weekly data cannot load, the site shows the preserved original archive with a visible warning. No paid service is used.
