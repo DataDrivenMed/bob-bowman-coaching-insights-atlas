@@ -1,0 +1,1596 @@
+{
+ "schemaVersion": 1,
+ "note": "Reader-facing overlay. Situations and audiences were assigned with AI assistance and reviewed against each summary. A thread's own situations/audience fields, when present, take priority over this file; entries in neither place fall back to the rules.",
+ "situations": [
+  {
+   "id": "planning-the-season",
+   "title": "Planning the season",
+   "question": "How do I turn a big goal into work my swimmers do every day?",
+   "blurb": "Long-range goals, seasonal targets and the ordinary morning that connects them.",
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  {
+   "id": "better-practice",
+   "title": "Running better practice",
+   "question": "How do I make practice count, not just add yards?",
+   "blurb": "Standards, repetition, fundamentals and doing the work correctly.",
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  {
+   "id": "training-design",
+   "title": "Training design and technique",
+   "question": "What does he think about volume, intensity, drills and suits?",
+   "blurb": "His views on training stimulus, recovery, race specifics and equipment.",
+   "audience": [
+    "coach"
+   ]
+  },
+  {
+   "id": "big-meet",
+   "title": "Before a big meet",
+   "question": "What should we do, and stop doing, in the run-up to championships?",
+   "blurb": "Trusting completed work, simplifying on race day and preparing for disruption.",
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  {
+   "id": "confidence-mental",
+   "title": "Confidence and mental skills",
+   "question": "How do I help an athlete stay composed and believe in the work?",
+   "blurb": "Earned confidence, visualization, relaxation and focus on the next controllable action.",
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  {
+   "id": "motivation",
+   "title": "Motivation and commitment",
+   "question": "How do I keep athletes showing up when they don't feel like it?",
+   "blurb": "Consistency over feelings, ownership and a reason behind repetitive work.",
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  {
+   "id": "setbacks",
+   "title": "Setbacks, plateaus and slumps",
+   "question": "My swimmer has stalled or had a bad race. What now?",
+   "blurb": "Patience with delayed progress, adapting the plan and finding the next workable step.",
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  {
+   "id": "after-the-result",
+   "title": "After the result",
+   "question": "How do we review a meet and reset, especially after a big win?",
+   "blurb": "Keeping records, adjusting plans and handling success without stalling.",
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  {
+   "id": "young-swimmers",
+   "title": "Developing young swimmers",
+   "question": "What matters most with age-group kids?",
+   "blurb": "Long-term development, varied activity, fundamentals over early talent and room to fail.",
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  {
+   "id": "team-culture",
+   "title": "Team culture and environment",
+   "question": "How do I build a group that holds a high standard together?",
+   "blurb": "Team values, honest feedback, coaching individuals inside a group and support around the athlete.",
+   "audience": [
+    "coach"
+   ]
+  },
+  {
+   "id": "growing-as-a-coach",
+   "title": "Growing as a coach",
+   "question": "How do I keep improving at this job, and stay in it?",
+   "blurb": "Learning from better coaches, guiding instead of controlling, self-care and career persistence.",
+   "audience": [
+    "coach"
+   ]
+  }
+ ],
+ "principles": [
+  {
+   "id": "vision",
+   "title": "From big goal to ordinary day",
+   "blurb": "Start with a goal that means something, then work backward until it becomes today's practice.",
+   "ideas": [
+    "Long-range goals",
+    "Meaningful goals",
+    "Daily actions",
+    "Long-term perspective"
+   ]
+  },
+  {
+   "id": "practice",
+   "title": "Quality practice, repeated",
+   "blurb": "Practice makes habits permanent, so the standard of each repetition matters more than the volume.",
+   "ideas": [
+    "Training quality",
+    "Fundamentals",
+    "Repetition",
+    "Consistency",
+    "Stretching limits",
+    "Recovery"
+   ]
+  },
+  {
+   "id": "prepared",
+   "title": "Prepared for anything",
+   "blurb": "Rehearse the good race and the broken goggles. On the day, attend to the next thing you control.",
+   "ideas": [
+    "Preparation",
+    "Adversity rehearsal",
+    "Mental rehearsal",
+    "Adaptability",
+    "Controllable actions"
+   ]
+  },
+  {
+   "id": "confidence",
+   "title": "Confidence is earned",
+   "blurb": "Belief comes from evidence built in training, not from talent or pep talks.",
+   "ideas": [
+    "Earned confidence",
+    "Beyond talent"
+   ]
+  },
+  {
+   "id": "ownership",
+   "title": "Ownership and growth",
+   "blurb": "Athletes own their choices, keep a development focus and reset after wins as well as losses.",
+   "ideas": [
+    "Personal responsibility",
+    "Continuous improvement",
+    "Reviewing progress",
+    "Recovering after success"
+   ]
+  },
+  {
+   "id": "people",
+   "title": "The people around the athlete",
+   "blurb": "Coaches, teammates and families shape development, and each swimmer needs to be coached as an individual.",
+   "ideas": [
+    "Support systems",
+    "Individualized coaching",
+    "Long-term development",
+    "Learning from mentors",
+    "External accountability"
+   ]
+  }
+ ],
+ "ideaAliases": {
+  "Dream goals": "Long-range goals",
+  "Specific daily actions": "Daily actions",
+  "Visible reminders": "Meaningful goals"
+ },
+ "ideaNames": {
+  "Long-term perspective": "Patience over time",
+  "Recovering after success": "Handling success",
+  "Recovery": "Rest and recovery",
+  "Adversity rehearsal": "Rehearsing adversity",
+  "External accountability": "Honest feedback",
+  "Beyond talent": "More than talent",
+  "Stretching limits": "Stretching limits",
+  "Controllable actions": "Focus on what you control"
+ },
+ "assignments": {
+  "thread-2114011255564599560": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "thread-2113730182003482834": {
+   "situations": [
+    "growing-as-a-coach",
+    "setbacks"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "thread-2113331596342501599": {
+   "situations": [
+    "big-meet"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2113022781260738762": {
+   "situations": [
+    "team-culture",
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "thread-2112655587569983937": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2112291557202366943": {
+   "situations": [
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "thread-2111868913214701871": {
+   "situations": [
+    "young-swimmers",
+    "better-practice"
+   ],
+   "audience": [
+    "parent",
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2111487896008159424": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2111455902465155408": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2111180736984232289": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2110836990652318071": {
+   "situations": [
+    "better-practice",
+    "big-meet"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2110451428712214693": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-2110370768471392734": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2110363482650755449": {
+   "situations": [
+    "better-practice",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2110115364025626879": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2109752216068436046": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2109728757237858700": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2109389576720781438": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2109374728645578827": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2109253681304748510": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "thread-2109239588019658854": {
+   "situations": [
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "post-2109223482168840313": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2109057136110235870": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2109026937872019909": {
+   "situations": [
+    "planning-the-season",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2109011585822052776": {
+   "situations": [
+    "better-practice",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2108860842804670521": {
+   "situations": [
+    "after-the-result"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2108709847722004544": {
+   "situations": [
+    "after-the-result",
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2108665555607560412": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2108664297467285598": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2108633251363295690": {
+   "situations": [
+    "better-practice",
+    "after-the-result",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2108303922691506351": {
+   "situations": [
+    "confidence-mental"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2108302413044015520": {
+   "situations": [
+    "planning-the-season",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2108300769053089861": {
+   "situations": [
+    "confidence-mental"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "thread-2108300544884515294": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "thread-2107943322912440453": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-2107938514872766970": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2107938263130595770": {
+   "situations": [
+    "motivation",
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2107938263105261825": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2107933877809397771": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2107590471585616032": {
+   "situations": [
+    "after-the-result"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2107492701507658196": {
+   "situations": [
+    "motivation",
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "post-2107212732525408285": {
+   "situations": [
+    "big-meet",
+    "setbacks"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "post-2107156295094538535": {
+   "situations": [
+    "planning-the-season",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2107076837071634542": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106910490941415467": {
+   "situations": [
+    "young-swimmers",
+    "better-practice"
+   ],
+   "audience": [
+    "parent",
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106850092871516345": {
+   "situations": [
+    "better-practice",
+    "setbacks"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "post-2106699098015568263": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2106487453422916028": {
+   "situations": [
+    "confidence-mental",
+    "big-meet"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "thread-2106471598999871672": {
+   "situations": [
+    "young-swimmers",
+    "better-practice"
+   ],
+   "audience": [
+    "parent",
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106457254450909244": {
+   "situations": [
+    "team-culture"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "thread-2106440165451288691": {
+   "situations": [
+    "planning-the-season",
+    "confidence-mental",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106381757193048497": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106155012896288887": {
+   "situations": [
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "thread-2106135887079739534": {
+   "situations": [
+    "big-meet",
+    "setbacks"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "post-2106109714316542157": {
+   "situations": [
+    "after-the-result"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2106007541947740243": {
+   "situations": [
+    "confidence-mental",
+    "after-the-result"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "thread-2105961000327389543": {
+   "situations": [
+    "better-practice",
+    "big-meet",
+    "after-the-result"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2105805207955521792": {
+   "situations": [
+    "big-meet"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-2105759657914487226": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-2105744708064641238": {
+   "situations": [
+    "team-culture"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-2105721057453949224": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-1782011953491189920": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1780197372724641930": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1760714692530721067": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1760709700625289600": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1759331004760862797": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1757435424598028481": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1658113172664995840": {
+   "situations": [
+    "better-practice",
+    "motivation"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-1620422567453691904": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607537545654718466": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607531775605215235": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607529348445405186": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607528239286865920": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607527435381379072": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1607520580009623552": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1605926338799575041": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1577837262921875458": {
+   "situations": [
+    "team-culture",
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-1541110687774040064": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1372616565879803910": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1351210809859432452": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1349441427684679680": {
+   "situations": [
+    "after-the-result"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-1227055204257783808": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1220058762863501312": {
+   "situations": [
+    "young-swimmers",
+    "setbacks"
+   ],
+   "audience": [
+    "parent",
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-1194219444676907008": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-1174705493488623621": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1159885385234673664": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1150778400375599105": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1149384349885894663": {
+   "situations": [
+    "young-swimmers",
+    "team-culture"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1149382982232231937": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-1028092966676484097": {
+   "situations": [
+    "young-swimmers"
+   ],
+   "audience": [
+    "parent",
+    "coach"
+   ]
+  },
+  "post-666719980075880449": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-433558070976081920": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-410803897880817664": {
+   "situations": [
+    "team-culture"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-353503358042116096": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-338425330882732032": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-321778934989586432": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-315558180446937088": {
+   "situations": [
+    "team-culture",
+    "young-swimmers"
+   ],
+   "audience": [
+    "coach",
+    "parent"
+   ]
+  },
+  "post-264453831625166848": {
+   "situations": [
+    "better-practice",
+    "young-swimmers"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "post-212706959739191296": {
+   "situations": [
+    "motivation",
+    "planning-the-season"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "post-200592732052406272": {
+   "situations": [
+    "after-the-result",
+    "big-meet"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-161247366022840321": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-161246041142870016": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-152898130575228928": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ]
+  },
+  "post-141870505157345280": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "post-101806506302914560": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-77212057157636096": {
+   "situations": [
+    "after-the-result",
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-76053536525402112": {
+   "situations": [
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ]
+  },
+  "post-53819571110559744": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-50928788661477378": {
+   "situations": [
+    "training-design"
+   ],
+   "audience": [
+    "coach"
+   ]
+  },
+  "post-45117552011124736": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "post-32254753782112256": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ]
+  },
+  "thread-2114396065353089328": {
+   "situations": [
+    "planning-the-season"
+   ],
+   "audience": [
+    "coach",
+    "swimmer",
+    "parent"
+   ]
+  },
+  "thread-2117028158914666949": {
+   "situations": [
+    "confidence-mental"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ],
+   "ideas": [
+    "Mental rehearsal",
+    "Preparation"
+   ]
+  },
+  "thread-2116981995163283560": {
+   "situations": [
+    "confidence-mental",
+    "planning-the-season"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ],
+   "ideas": [
+    "Controllable actions",
+    "Long-range goals",
+    "Daily actions",
+    "Adaptability"
+   ]
+  },
+  "thread-2116659619883888692": {
+   "situations": [
+    "motivation",
+    "after-the-result"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ],
+   "ideas": [
+    "Meaningful goals",
+    "Daily actions",
+    "Adversity rehearsal",
+    "Recovering after success"
+   ]
+  },
+  "thread-2116652908611838293": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Adversity rehearsal",
+    "Controllable actions",
+    "Preparation"
+   ]
+  },
+  "thread-2116173024311509052": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ],
+   "ideas": [
+    "Recovery",
+    "Support systems"
+   ]
+  },
+  "thread-2115898465083347176": {
+   "situations": [
+    "planning-the-season",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Meaningful goals",
+    "Daily actions",
+    "Controllable actions",
+    "Adversity rehearsal",
+    "Mental rehearsal"
+   ]
+  },
+  "thread-2115806862641688732": {
+   "situations": [
+    "setbacks"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ],
+   "ideas": [
+    "Adaptability",
+    "Controllable actions"
+   ]
+  },
+  "thread-2115523997467357199": {
+   "situations": [
+    "big-meet",
+    "confidence-mental"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Adversity rehearsal",
+    "Preparation",
+    "Adaptability"
+   ]
+  },
+  "thread-2115279385896931402": {
+   "situations": [
+    "motivation",
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "swimmer",
+    "coach",
+    "parent"
+   ],
+   "ideas": [
+    "Personal responsibility",
+    "Consistency"
+   ]
+  },
+  "thread-2115225060072145372": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Training quality",
+    "Meaningful goals",
+    "Individualized coaching"
+   ]
+  },
+  "thread-2114838758713659450": {
+   "situations": [
+    "team-culture"
+   ],
+   "audience": [
+    "coach"
+   ],
+   "ideas": [
+    "Support systems",
+    "Personal responsibility",
+    "External accountability"
+   ]
+  },
+  "thread-2116910886556160030": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ],
+   "ideas": [
+    "Individualized coaching"
+   ]
+  },
+  "thread-2116533147223654743": {
+   "situations": [
+    "young-swimmers",
+    "setbacks"
+   ],
+   "audience": [
+    "parent",
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Long-term development",
+    "Stretching limits"
+   ]
+  },
+  "thread-2116304893677822302": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ],
+   "ideas": [
+    "Controllable actions",
+    "Personal responsibility"
+   ]
+  },
+  "thread-2116170759584526444": {
+   "situations": [
+    "team-culture",
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ],
+   "ideas": [
+    "Individualized coaching",
+    "Continuous improvement"
+   ]
+  },
+  "thread-2115580117783056883": {
+   "situations": [
+    "growing-as-a-coach"
+   ],
+   "audience": [
+    "coach"
+   ],
+   "ideas": [
+    "Learning from mentors",
+    "Continuous improvement"
+   ]
+  },
+  "thread-2115217478473162941": {
+   "situations": [
+    "better-practice"
+   ],
+   "audience": [
+    "coach",
+    "swimmer"
+   ],
+   "ideas": [
+    "Fundamentals"
+   ]
+  },
+  "thread-2114885289126887830": {
+   "situations": [
+    "motivation"
+   ],
+   "audience": [
+    "swimmer",
+    "coach"
+   ],
+   "ideas": [
+    "Consistency",
+    "Personal responsibility"
+   ]
+  }
+ },
+ "rules": {
+  "ideas": {
+   "Long-range goals": [
+    "planning-the-season"
+   ],
+   "Meaningful goals": [
+    "planning-the-season",
+    "motivation"
+   ],
+   "Daily actions": [
+    "planning-the-season"
+   ],
+   "Training quality": [
+    "training-design"
+   ],
+   "Recovery": [
+    "training-design"
+   ],
+   "Fundamentals": [
+    "better-practice"
+   ],
+   "Repetition": [
+    "better-practice"
+   ],
+   "Consistency": [
+    "motivation"
+   ],
+   "Preparation": [
+    "big-meet"
+   ],
+   "Mental rehearsal": [
+    "confidence-mental"
+   ],
+   "Earned confidence": [
+    "confidence-mental"
+   ],
+   "Controllable actions": [
+    "confidence-mental"
+   ],
+   "Adversity rehearsal": [
+    "big-meet"
+   ],
+   "Adaptability": [
+    "setbacks"
+   ],
+   "Long-term perspective": [
+    "setbacks"
+   ],
+   "Long-term development": [
+    "young-swimmers"
+   ],
+   "Beyond talent": [
+    "young-swimmers"
+   ],
+   "Support systems": [
+    "team-culture"
+   ],
+   "Individualized coaching": [
+    "team-culture"
+   ],
+   "Learning from mentors": [
+    "growing-as-a-coach"
+   ],
+   "Recovering after success": [
+    "after-the-result"
+   ],
+   "Reviewing progress": [
+    "after-the-result"
+   ],
+   "Personal responsibility": [
+    "motivation"
+   ]
+  },
+  "keywords": [
+   {
+    "pattern": "taper|championship|race day|performance day|big meet|before (a|the) (race|meet)",
+    "situation": "big-meet"
+   },
+   {
+    "pattern": "child|children|kids|youth|age.group|young swimmer|parent",
+    "situation": "young-swimmers"
+   },
+   {
+    "pattern": "setback|injur|plateau|slump|bad race|failure",
+    "situation": "setbacks"
+   },
+   {
+    "pattern": "visuali|mental rehearsal|confiden|relax",
+    "situation": "confidence-mental"
+   },
+   {
+    "pattern": "team value|culture|teammate",
+    "situation": "team-culture"
+   },
+   {
+    "pattern": "coaches|as a coach|mentor",
+    "situation": "growing-as-a-coach"
+   },
+   {
+    "pattern": "yardage|volume|intensity|drill|technique|suit|kick|stroke",
+    "situation": "training-design"
+   }
+  ]
+ }
+}

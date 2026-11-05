@@ -1,123 +1,74 @@
-# Bob Bowman Coaching Insights Atlas
+# Notes on Bob Bowman's coaching
 
-A portable, independent reading notebook. Not official, affiliated with, or endorsed by Bob Bowman. All site code is plain HTML, CSS and JavaScript. Original archive content lives in `threads.json`; approved weekly additions live in `weekly-updates.json`. There is no build step, API key, server account, database, graph library, CDN, paid service or site-hosted X watcher.
+Independent notes on Bob Bowman's public coaching threads on X, organized for swim coaches first, then swimmers and parents. Not affiliated with or endorsed by Bob Bowman. Plain HTML, CSS and JavaScript on GitHub Pages: no build step, no external requests at runtime, no analytics.
 
-## What is included
+Live site: https://datadrivenmed.github.io/bob-bowman-coaching-insights-atlas/
 
-- `index.html`: site entry point
-- `styles.css`: responsive editorial layout
-- `app.js`: views, SVG graph, filters, entry helper and local notes
-- `threads.json`: original archive content, dates, source links and coverage notes
-- `weekly-updates.json`: cumulative automatic weekly additions and check coverage
-- `thread-entry-template.json`: copyable blank entry
-- `favicon.svg`: original illustrative swimming-lane icon
-- `atlas-art.png`: original decorative swimming-lane illustration, not a photograph or evidence
-- `.nojekyll`: tells GitHub Pages to serve these static files directly
-- `TEXT-NEEDED.md`: checklist of supplied links with missing text
-- `README.md`: this guide
+## What a visitor sees
 
-The fictional sample entry is marked everywhere and excluded from sourced counts. You may delete it or hide it using the checkbox. It is not a Bob Bowman thread or quotation.
+- **Find help** (`#/`): eleven coaching situations drawn as lanes of a pool, a search box that understands coach vocabulary (taper, plateau, nerves, yardage, parents) and an audience switch (all, coaches, swimmers, parents) that is remembered on that browser.
+- **Situation pages** (`#/s/<id>`): the threads for one problem, fullest threads first by default.
+- **Thread pages** (`#/t/<thread id>`): summary, a link to the original on X, the post-by-post sequence, idea links, related threads and collapsed source notes.
+- **Connections** (`#/connections/<idea>?with=<idea>`): pick an idea, see which ideas Bowman pairs it with and how often, then read the threads where two ideas meet. Six core principles color the ideas.
+- **All threads** (`#/library`): search, filter by situation and audience, grouped by year.
+- **What's new** (`#/new`): everything the weekly check has added.
+- **About** (`#/about`): how summaries and dates are made, the weekly check, coverage, known gaps, the searchable source-record ledger and the data download.
 
-## Publish on GitHub Pages, step by step
+Old links (`#network`, `#timeline`, `#threads`, `#themes`, `#sources`) redirect to the new pages.
 
-These instructions use GitHub's branch-based static Pages deployment. GitHub's interface may change; use the official Pages documentation if labels differ.
+## Files
 
-1. Sign in to your existing GitHub account in your browser. This package contains no credentials.
-2. Create a **new public repository**, for example `bowman-atlas`. Public means everyone can read the files, including any content you upload. Do not put private notes or full copyrighted source exports in it.
-3. Open the repository. Choose **Add file → Upload files** (a new empty repository may show **uploading an existing file**).
-4. Unzip this package on your computer. Upload the files **inside** the `bowman-atlas` folder, not the enclosing folder or the ZIP. `index.html` and `threads.json` must be at the repository root. Include `.nojekyll` if your file picker shows it. This site also works if that empty marker is omitted.
-5. Choose **Commit changes** to save the upload to `main`.
-6. Open the repository's **Settings → Pages**.
-7. Under **Build and deployment**, select **Deploy from a branch**.
-8. Select the **main** branch and **/(root)** folder. Choose **Save**.
-9. Wait for the deployment to finish. The Pages settings screen will show your live site link; open that link. Use the actual link GitHub provides, not a guessed URL.
-10. Check Network, Timeline, Threads, Themes, source links and Download thread data on your phone.
+| File | What it is | Who changes it |
+| --- | --- | --- |
+| `threads.json` | Original archive (threads, coverage, source ledger) | Nobody. Frozen. |
+| `weekly-updates.json` | Cumulative weekly additions, same schema as before | The weekly agent |
+| `guide.json` | Reader overlay: situations, audiences, idea cleanup, study principles | Rebuilt when you retag |
+| `index.html` | Loads the three files and merges them | Rarely |
+| `app.js` | All views and the connections explorer | Design changes |
+| `styles.css` | Visual design | Design changes |
+| `fonts/` | Self-hosted Barlow and Barlow Semi Condensed (SIL Open Font License, `fonts/OFL.txt`) | Never |
+| `favicon.svg` | Lane T mark | Never |
 
-GitHub may take a few minutes to publish a commit. If an update is not visible, check the deployment status in the repository's Actions tab, then hard-refresh the live page. A file named `Threads.json` is not the same as `threads.json`; filenames are case-sensitive.
+## The weekly agent contract
 
-Official reference: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+Nothing about the weekly agent's job has to change. `weekly-updates.json` keeps `schemaVersion: 1`, `threads`, `archiveLedger`, `contentUpdated`, `lastChecked`, `checkNote`, `checkpoint` and `gaps` exactly as before. If the file fails to load, the site shows the original archive with a visible warning, never a "no new posts" message.
 
-## Open it locally
+New entries are filed into situations automatically, in this order:
 
-The app loads `threads.json` with `fetch`. Double-clicking `index.html` can fail because browsers restrict `file://` data access. This is not a missing dependency or a need for a paid server.
+1. The entry's own `situations` and `audience` fields, if present.
+2. Its record in `guide.json` → `assignments`.
+3. Rules in `guide.json` → `rules` (idea labels and keywords in the title and summary).
 
-Use GitHub Pages as above, or, if Python 3 is already installed:
+To get the best filing, ask the agent to add these optional fields to each new thread:
 
-1. Open a terminal inside the unzipped `bowman-atlas` folder.
-2. Run `python3 -m http.server 8000` (on some Windows installations, `py -m http.server 8000`).
-3. Open `http://localhost:8000` in the browser.
-4. Press Ctrl+C in the terminal when done.
+```json
+"ideas": ["Preparation", "Adversity rehearsal"],
+"situations": ["big-meet", "confidence-mental"],
+"audience": ["coach", "swimmer"],
+"quotes": [{"text": "A short exact line, under 15 words", "url": "https://x.com/coach_bowman/status/..."}]
+```
 
-This local preview tool is optional, not a deployed backend. No data leaves your machine through it. Do not expose the local server to the internet. For a no-terminal preview, publish a temporary GitHub Pages repository instead.
+Rules for those fields:
 
-## Add the next thread: simplest route
+- `ideas`: reuse an existing label wherever possible (see `principles` in `guide.json`). New labels work, but they will appear uncolored in Connections until you add them to a principle. **18 of the first 19 weekly entries arrived with empty `ideas`;** the overlay fills those in, but future entries should carry them.
+- `situations`: one to three of `planning-the-season`, `better-practice`, `training-design`, `big-meet`, `confidence-mental`, `motivation`, `setbacks`, `after-the-result`, `young-swimmers`, `team-culture`, `growing-as-a-coach`.
+- `audience`: any of `coach`, `swimmer`, `parent`. Coach is always added.
+- `quotes`: optional, at most one per thread, under 15 words, copied exactly from the post and linked to that post. The site shows quotes under "In his words" only when present. Paraphrase everything else.
 
-1. Open **Sources & updates → Make an entry with the helper** on the site.
-2. Enter the original thread link, a unique ID and the posting date if verified. If you cannot read the thread, select **Text needed**. Do not invent a date or summary.
-3. If you have read the full text, select Ready and write a short summary in your own words. Add comma-separated themes and ideas. Use identical idea/theme wording when a new thread supports an existing label.
-4. Download the entry JSON. This is just a local file, not an upload or a published update.
-5. In GitHub, open `weekly-updates.json` and click the pencil/edit button. Find the `threads` array near the bottom. Copy the downloaded `{ ... }` object into that array. Put a comma between entries, never after the last entry.
-6. Change the top-level `contentUpdated` date to today's date in `YYYY-MM-DD` format.
-7. Update `lastChecked`, `checkNote`, `checkpoint` and `gaps` to describe the collection honestly.
-8. Commit the file. The cards, themes, timeline and graph will use the new entry automatically after GitHub Pages republishes. You do not edit `app.js`.
-9. Check the live site. If a JSON error appears, return to the edit and check commas, straight double quotes, brackets and duplicate IDs. You can restore the last working version from GitHub history. Do not paste private data into an online JSON validator.
+## Retagging
 
-## Add a thread using the template
+`guide.json` was generated by `tools/build_guide.py` from a hand-reviewed assignment table. To change a thread's situations, edit its entry under `assignments` (or the table in the script and rerun it with `python3 -I tools/build_guide.py .`). The script refuses to run if a thread is missing from the table, so new weekly entries need either their own fields or a row added.
 
-Copy the object from `thread-entry-template.json` into the `threads` array. Replace each field:
+## Run it locally
 
-- `id`: unique, stable string. Notes are keyed by this ID, so do not rename it after writing notes.
-- `sample`: `false` for an actual source; `true` ONLY for a fictional structural example.
-- `status`: `ready`, `text-needed` or `sample`.
-- `title`: concise, descriptive title in your own words.
-- `date`: verified posting date as `YYYY-MM-DD`, or `null` if unknown. Never infer a missing date from the collection's Updated date.
-- `url`: the original X thread link. Accepted external source links are HTTPS links on x.com or twitter.com. Do not use a mirror as though it were the original.
-- `summary`: concise summary grounded in readable source text. Empty string for Text needed.
-- `themes`: list of theme names, e.g. `["Practice", "Reflection"]`.
-- `ideas`: list of concept labels. The graph links threads to ideas by exact label matching. Node size counts supporting entries in the current filtered view. Colors follow each thread's first theme.
-- `quotes`: default `[]`. If you have a useful short line supplied verbatim, use `[{"text": "short exact quotation", "url": "original post URL"}]`. Verify against the source. Prefer paraphrase and keep quotations brief; do not use the sample as evidence.
-- `posts`: optional ordered, concise post summaries, e.g. `[{"order":1,"url":"original first post URL","summary":"Your concise summary."},{"order":2,"url":"original second post URL","summary":"Your concise summary."}]`. Keep positive, increasing order numbers and preserve the supplied sequence. Do not insert a full verbatim thread.
-- `provenance`: explain where readable text came from and any uncertainty, in plain language.
+Browsers block `fetch` from `file://`, so serve the folder:
 
-Keep the original archive in `threads.json` unchanged; new entries go in the cumulative `weekly-updates.json`. The template is a blank structural aid, not a live content source.
+```
+python3 -m http.server 8000
+```
 
-## Edit a summary
-
-For a weekly addition, open `weekly-updates.json` in GitHub, find the entry by ID or title, and edit only the `summary` text between its double quotes. Escape any literal double quote inside the text with a backslash, or avoid quotations. Update `contentUpdated`, commit and check the published site. A straight apostrophe needs no escaping in JSON. Keep the source URL and attribution attached to the summary.
-
-## Notes, exports and privacy
-
-- My notes are saved in browser localStorage on this origin/device, not in GitHub or `threads.json`. They do not sync between devices, domains or browser profiles. Browser clearing/private mode/storage limits can remove them.
-- **Download thread data** exports the public collection JSON only. It excludes your notes.
-- **Export my notes** exports local notes separately. Treat this file as private.
-- **Import notes** merges a supported notes export after confirmation, replacing same-ID notes locally. It never publishes them.
-- The site collects no analytics and makes no external runtime requests except when a reader explicitly opens an original source link. Your hosting provider still operates its normal access logs; the site does not control those.
-
-## Graph and accessibility
-
-The network is dependency-free SVG. It shows a bounded overview of up to 12 threads and 12 ideas to stay readable on phones; search and filters narrow the graph. The complete matching thread and idea lists remain available below it, so larger collections are not silently omitted. Thread nodes are solid and idea nodes outlined. All connections and theme labels are AI-suggested interpretations, never claims about the author's intent. Click, tap, or use Tab then Enter/Space. Every graph destination has a text button alternative. Native dialog details support Escape and focus return.
-
-Timeline dates are verified source dates, with undated entries separated. The interface handles empty arrays and empty filters. Text-needed entries have no inferred summary and are not used in the idea graph.
+Then open http://localhost:8000.
 
 ## Copyright and attribution
 
-This is a curated attributed learning resource, not a mirror or full-text archive. Link every actual summary and brief quotation to the original X source. Keep threads together. Do not reproduce full threads, invent posts, assume endorsement, or publish private source exports. A broad research effort still does not establish a complete account archive: record known gaps.
-
-Branch/folder publishing reference: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-## Coverage and source ledger
-
-`threads.json` can also contain `coverage` (a research-scope note with `title`, `note`, `facts`, `sources` and `gaps`) and `archiveLedger` (account-item metadata with `url`, `date`, `title`, `kind`, `note`). The preserved original archive holds its baseline coverage; weekly additions include their own metadata and check notes. The Sources view shows this ledger with its own search; up to 100 matching records are displayed at once and all records are in the data download. A recovered repost or unreadable link is not silently promoted into a fully sourced coaching thread. The research coverage date is not an individual post date.
-
-## This edition's research status
-
-This package has not been uploaded to a GitHub repository or deployed on GitHub Pages on your behalf. It is ready for you to publish using the instructions above. The separate hosted preview demonstrates the interface; its restricted browser-storage environment may show session-only notes. The standalone Pages version uses browser localStorage as described.
-
-The baseline research count and ID-derived UTC range are recorded in `threads.json`; current combined counts and weekly check notes appear in the live Source desk. This is not a complete account export. Recovered chronology is derived from X IDs, not a guarantee of independently displayed posting dates. Some recent ancestor posts also have mirror-displayed UTC timestamps. Full source text was used for research but is not distributed in this site package. Search errors are recorded as gaps, not evidence of absent posts.
-
-
-## Automatic weekly refresh
-
-The existing GitHub Pages URL stays unchanged. Weekly checks are arranged for Monday mornings, America/Chicago. This is a best-effort sourced collection, not a complete X feed. The original `threads.json` archive stays untouched. `weekly-updates.json` holds cumulative new concise summaries, source metadata, last-check time, content-update date, checkpoint and gaps. The loader deduplicates IDs and combines both files for every view and Download thread data. Browser-local personal notes stay separate and are never published.
-
-A failed source check must not be reported as no new posts. Failed or unverified changes are not published. If weekly data cannot load, the site shows the preserved original archive with a visible warning. No paid service is used.
+This is a curated, attributed reading guide, not a mirror. Summaries are paraphrases written with AI assistance from readable source text, and every one links to the original X post. Do not paste full threads. Situations, audiences and idea connections are an editorial reading of the threads, not claims about Bowman's intent.
