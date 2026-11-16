@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "contentUpdated": "2026-11-09",
-  "lastChecked": "2026-11-09T08:17:00-06:00",
+  "contentUpdated": "2026-11-16",
+  "lastChecked": "2026-11-16T08:20:00-06:00",
   "checkpoint": {
-    "latestCheckedAuthorRoot": "2119539708103622780",
-    "latestObservedAuthorId": "2119539709173260400",
+    "latestCheckedAuthorRoot": "2121980757425967178",
+    "latestObservedAuthorId": "2121980762862067912",
     "previousArchiveCheckpoint": "2114011265265774929",
     "overlapDays": 14,
-    "overlapReached": "2026-10-24",
-    "note": "Eight mirror timeline pages through Oct24 crossed the prior Nov1 checkpoint with more than14days overlap; canonical profile and12new coaching roots inspected. Discovery can omit records."
+    "overlapReached": "2026-10-23",
+    "note": "Eleven mirror timeline pages through Oct23 crossed the prior Nov8 checkpoint with more than14days overlap; canonical profile and15new coaching roots and their author posts inspected. Discovery can omit records."
   },
   "threads": [
     {
@@ -1473,6 +1473,743 @@
         }
       ],
       "provenance": "Canonical X root and 1 author post links inspected on 2026-11-09; readable canonical continuation text cross-checked with public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121980757425967178",
+      "sample": false,
+      "status": "ready",
+      "title": "Separate missed effort from events outside your control",
+      "date": "2026-11-15",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121980757425967178",
+      "summary": "Bowman distinguishes choices you could have made differently from setbacks you could not control. Own and fix the first kind without treating an outside cancellation as a personal failure.",
+      "themes": [
+        "Confidence",
+        "Reflection"
+      ],
+      "ideas": [
+        "Controllable actions",
+        "Personal responsibility",
+        "Earned confidence"
+      ],
+      "situations": [
+        "setbacks",
+        "confidence-mental"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121980757425967178",
+          "summary": "Introduces two different kinds of setbacks."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121980759988896050",
+          "summary": "Defines a failure of controllable effort and separates it from outside events."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121980762862067912",
+          "summary": "Suggests taking responsibility without carrying blame for what was outside your hands."
+        }
+      ],
+      "provenance": "Canonical X root and 3 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121746750717518105",
+      "sample": false,
+      "status": "ready",
+      "title": "Find meaning in the ordinary work",
+      "date": "2026-11-14",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121746750717518105",
+      "summary": "Bowman cites sociologist Dan Chambliss on elite swimmers who enjoy the work others call sacrifice. His reflection is that finding meaning in ordinary training can make sustained effort feel worthwhile.",
+      "themes": [
+        "Motivation",
+        "Practice"
+      ],
+      "ideas": [
+        "Meaningful goals",
+        "Consistency"
+      ],
+      "situations": [
+        "motivation",
+        "better-practice"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121746750717518105",
+          "summary": "Connects enjoyment and meaning in routine training with Chambliss' study of swimmers."
+        }
+      ],
+      "provenance": "Canonical X root and 1 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121716803520889174",
+      "sample": false,
+      "status": "ready",
+      "title": "Keep taking small considered risks after success",
+      "date": "2026-11-14",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121716803520889174",
+      "summary": "Bowman warns that success can make people overly protective of what they have achieved. He suggests building tolerance for uncertainty through smaller uncomfortable decisions rather than waiting to feel completely ready.",
+      "themes": [
+        "Development",
+        "Confidence"
+      ],
+      "ideas": [
+        "Stretching limits",
+        "Recovering after success",
+        "Adaptability"
+      ],
+      "situations": [
+        "after-the-result",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121716803520889174",
+          "summary": "Warns against becoming cautious after achievement."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121716803789328757",
+          "summary": "Describes how protecting success can turn into playing not to lose."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121716804082905114",
+          "summary": "Suggests building comfort with uncertainty through small choices."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2121716804380762489",
+          "summary": "Encourages taking smaller risks before the next large decision."
+        }
+      ],
+      "provenance": "Canonical X root and 4 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121656182477664703",
+      "sample": false,
+      "status": "ready",
+      "title": "Build confidence through action",
+      "date": "2026-11-14",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121656182477664703",
+      "summary": "Bowman describes confidence as something that grows from repeated behavior rather than a feeling to await before starting. Choose a useful action and build evidence that you can follow through. This is his coaching perspective, not a guarantee that confidence always follows one fixed path.",
+      "themes": [
+        "Confidence",
+        "Practice"
+      ],
+      "ideas": [
+        "Earned confidence",
+        "Daily actions",
+        "Personal responsibility"
+      ],
+      "situations": [
+        "confidence-mental",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121656182477664703",
+          "summary": "Presents behavior as a starting point for confidence."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121656183987535986",
+          "summary": "Challenges waiting to feel confident before acting."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121656185547788437",
+          "summary": "Describes repeated action as evidence that changes self-image."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2121656187036762152",
+          "summary": "Encourages action before the desired feeling arrives."
+        }
+      ],
+      "provenance": "Canonical X root and 4 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121411542092575227",
+      "sample": false,
+      "status": "ready",
+      "title": "Aim hard feedback at the next attempt",
+      "date": "2026-11-14",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121411542092575227",
+      "summary": "Bowman calls an honest performance conversation a preview rather than a review. Examine what went wrong, then spend most of the discussion on an actionable plan the athlete can help shape for the next attempt.",
+      "themes": [
+        "Reflection",
+        "Coaching"
+      ],
+      "ideas": [
+        "Reviewing progress",
+        "Continuous improvement",
+        "Individualized coaching"
+      ],
+      "situations": [
+        "after-the-result",
+        "growing-as-a-coach"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121411542092575227",
+          "summary": "Questions feedback that only grades a finished performance."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121411542356812265",
+          "summary": "Describes using past mistakes to plan the next attempt."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121411542742716751",
+          "summary": "Explains why a forward-looking conversation may invite participation."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2121411543036260771",
+          "summary": "Suggests spending most of the discussion on usable next steps."
+        }
+      ],
+      "provenance": "Canonical X root and 4 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121384362897756243",
+      "sample": false,
+      "status": "ready",
+      "title": "Use setbacks to learn and try again",
+      "date": "2026-11-13",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121384362897756243",
+      "summary": "Bowman describes progress as uneven rather than a straight line. His emphasis is on getting up after setbacks, learning something and improving the next attempt.",
+      "themes": [
+        "Resilience",
+        "Development"
+      ],
+      "ideas": [
+        "Continuous improvement",
+        "Long-term perspective"
+      ],
+      "situations": [
+        "setbacks",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121384362897756243",
+          "summary": "Frames resilience as learning and trying again after setbacks."
+        }
+      ],
+      "provenance": "Canonical X root and 1 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121384111306658193",
+      "sample": false,
+      "status": "ready",
+      "title": "Decide what matters now",
+      "date": "2026-11-13",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121384111306658193",
+      "summary": "Bowman borrows Lou Holtz' reminder to identify what is important now. When a task feels overwhelming, he encourages choosing the immediate action instead of automatically putting it off.",
+      "themes": [
+        "Focus",
+        "Practice"
+      ],
+      "ideas": [
+        "Controllable actions",
+        "Daily actions"
+      ],
+      "situations": [
+        "confidence-mental",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121384111306658193",
+          "summary": "Uses Holtz' reminder to bring attention back to an action that can be taken now."
+        }
+      ],
+      "provenance": "Canonical X root and 1 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121349430901154135",
+      "sample": false,
+      "status": "ready",
+      "title": "Connect an emotional dream to daily choices",
+      "date": "2026-11-13",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121349430901154135",
+      "summary": "Bowman describes three parts of a long pursuit: a dream with emotional meaning, a plan built backward from that dream and daily decisions that support it. Write the ambition in a motivating form, then identify and do the next step.",
+      "themes": [
+        "Goals",
+        "Practice"
+      ],
+      "ideas": [
+        "Meaningful goals",
+        "Long-range goals",
+        "Daily actions"
+      ],
+      "situations": [
+        "planning-the-season",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121349430901154135",
+          "summary": "Introduces three parts of championship development."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121349433376084241",
+          "summary": "Explains the motivating role of an emotionally meaningful dream."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121349435011563827",
+          "summary": "Recommends planning backward from the desired result."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2121349437121302651",
+          "summary": "Connects the plan to everyday decisions."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2121349439977836802",
+          "summary": "Notes the difficulty of sustaining those choices over years."
+        },
+        {
+          "order": 6,
+          "url": "https://x.com/coach_bowman/status/2121349441680556048",
+          "summary": "Encourages writing the dream and taking today's next step."
+        }
+      ],
+      "provenance": "Canonical X root and 6 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2121045882858774684",
+      "sample": false,
+      "status": "ready",
+      "title": "Protect a short list of important work",
+      "date": "2026-11-13",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2121045882858774684",
+      "summary": "Bowman argues that spreading attention across too many tasks lowers the quality of each. Identify the few activities that truly support progress, protect time for them and let less useful busyness go.",
+      "themes": [
+        "Focus",
+        "Practice"
+      ],
+      "ideas": [
+        "Training quality",
+        "Daily actions",
+        "Controllable actions"
+      ],
+      "situations": [
+        "better-practice",
+        "training-design"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2121045882858774684",
+          "summary": "Questions whether doing more things actually improves performance."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2121045883106304155",
+          "summary": "Connects divided attention with lower quality."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2121045883399950797",
+          "summary": "Describes athletes concentrating on a small number of useful priorities."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2121045883668295831",
+          "summary": "Suggests cutting the task list to work that advances the goal."
+        }
+      ],
+      "provenance": "Canonical X root and 4 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2120985062334439898",
+      "sample": false,
+      "status": "ready",
+      "title": "Train the qualities talent does not supply",
+      "date": "2026-11-12",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2120985062334439898",
+      "summary": "Bowman draws four lessons from coaching: keep improving weak fundamentals, shape the training environment, attempt challenging practice tasks and know your own reason for pursuing the goal. His Arizona State example illustrates long-term team development, not a promise that environment or effort makes success inevitable.",
+      "themes": [
+        "Development",
+        "Practice",
+        "Coaching"
+      ],
+      "ideas": [
+        "Beyond talent",
+        "Fundamentals",
+        "Stretching limits",
+        "Personal responsibility"
+      ],
+      "situations": [
+        "training-design",
+        "team-culture",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2120985062334439898",
+          "summary": "Introduces four lessons beyond talent."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2120985064997892602",
+          "summary": "Uses Phelps' early technique work to illustrate improving weaknesses."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2120985066679455808",
+          "summary": "Describes shaping an environment that supports practice."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2120985068269174838",
+          "summary": "Suggests stretching beyond previous practice achievements and learning from failure."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2120985070773375229",
+          "summary": "Separates a coach's plan from the athlete's own motivation."
+        },
+        {
+          "order": 6,
+          "url": "https://x.com/coach_bowman/status/2120985072480264323",
+          "summary": "Recalls Arizona State's change over nine years."
+        }
+      ],
+      "provenance": "Canonical X root and 6 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2120689282947920287",
+      "sample": false,
+      "status": "ready",
+      "title": "Write a specific goal for yourself",
+      "date": "2026-11-12",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2120689282947920287",
+      "summary": "Bowman recommends recording a specific target as the first step in goal setting. He prefers handwriting because it feels personal to him, but typing also works and the goal does not need to be shared publicly.",
+      "themes": [
+        "Goals"
+      ],
+      "ideas": [
+        "Meaningful goals",
+        "Long-range goals"
+      ],
+      "situations": [
+        "planning-the-season"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2120689282947920287",
+          "summary": "Recommends writing or typing a specific target and allows it to remain private."
+        }
+      ],
+      "provenance": "Canonical X root and 1 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2120612466094989672",
+      "sample": false,
+      "status": "ready",
+      "title": "Rehearse flexibility and the next controllable action",
+      "date": "2026-11-11",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2120612466094989672",
+      "summary": "Bowman groups five mental habits: adaptability, rehearsing success, rehearsing disruption, brief periods of full attention and focusing on the next action instead of the scoreboard. His examples translate broad performance goals into a controllable turn or a few seconds of effort.",
+      "themes": [
+        "Confidence",
+        "Visualization",
+        "Focus"
+      ],
+      "ideas": [
+        "Adaptability",
+        "Mental rehearsal",
+        "Adversity rehearsal",
+        "Controllable actions"
+      ],
+      "situations": [
+        "confidence-mental",
+        "big-meet",
+        "better-practice"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2120612466094989672",
+          "summary": "Introduces five mental habits from his coaching experience."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2120612468968009951",
+          "summary": "Contrasts rigid toughness with adaptability."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2120612471329493157",
+          "summary": "Recommends regular mental rehearsal of success."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2120612473648894154",
+          "summary": "Adds rehearsal for things not going to plan."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2120612476371022157",
+          "summary": "Uses a football example of short bursts of full attention."
+        },
+        {
+          "order": 6,
+          "url": "https://x.com/coach_bowman/status/2120612478849843279",
+          "summary": "Applies scoreboard-independent focus to a swimmer's first turn."
+        },
+        {
+          "order": 7,
+          "url": "https://x.com/coach_bowman/status/2120612481618108901",
+          "summary": "Notes that these habits do not require spending money."
+        }
+      ],
+      "provenance": "Canonical X root and 7 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2120328154275586061",
+      "sample": false,
+      "status": "ready",
+      "title": "Keep attention on your own race",
+      "date": "2026-11-11",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2120328154275586061",
+      "summary": "Using his interpretation of a Rio Olympics photo, Bowman contrasts attention to another swimmer with attention to one's own race. The coaching lesson is to focus on controllable execution and personal improvement. The photo is his illustration, not proof that a glance caused the result.",
+      "themes": [
+        "Focus",
+        "Confidence"
+      ],
+      "ideas": [
+        "Controllable actions",
+        "Training quality"
+      ],
+      "situations": [
+        "big-meet",
+        "confidence-mental"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2120328154275586061",
+          "summary": "Introduces a Rio Olympics photo as a coaching illustration."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2120328155026317325",
+          "summary": "Points to the swimmers' different gaze directions."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2120328155236094314",
+          "summary": "Interprets the moment as attention to a rival instead of one's own race."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2120328155512864887",
+          "summary": "Asks athletes to focus on how they will execute their own race."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2120328155806507298",
+          "summary": "Encourages comparison with one's own best."
+        }
+      ],
+      "provenance": "Canonical X root and 5 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2120281680938147886",
+      "sample": false,
+      "status": "ready",
+      "title": "Match the training to the stated goal",
+      "date": "2026-11-10",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2120281680938147886",
+      "summary": "Bowman describes confronting the gap between an athlete's written target and current practice. Reassess either the goal or the training so that the two fit each other.",
+      "themes": [
+        "Goals",
+        "Practice"
+      ],
+      "ideas": [
+        "Training quality",
+        "Personal responsibility",
+        "Reviewing progress"
+      ],
+      "situations": [
+        "planning-the-season",
+        "better-practice"
+      ],
+      "audience": [
+        "coach",
+        "swimmer"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2120281680938147886",
+          "summary": "Uses a target-time example to question whether current training supports the stated goal."
+        }
+      ],
+      "provenance": "Canonical X root and 1 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
+    },
+    {
+      "id": "thread-2119903708322644189",
+      "sample": false,
+      "status": "ready",
+      "title": "Value a high practice average over rare perfect days",
+      "date": "2026-11-09",
+      "dateProvenance": "Canonical X timestamp inspected in UTC; public mirror date cross-checked. Local displayed date can differ.",
+      "url": "https://x.com/coach_bowman/status/2119903708322644189",
+      "summary": "Bowman recalls Phelps producing a consistently high standard of practice more often than a perfect session. His lesson is to avoid long slides in effort and return to useful routine after an off day. The story is not advice to ignore illness or force intense training when unwell.",
+      "themes": [
+        "Practice",
+        "Development"
+      ],
+      "ideas": [
+        "Consistency",
+        "Daily actions",
+        "Long-term perspective"
+      ],
+      "situations": [
+        "better-practice",
+        "motivation"
+      ],
+      "audience": [
+        "coach",
+        "swimmer",
+        "parent"
+      ],
+      "quotes": [],
+      "posts": [
+        {
+          "order": 1,
+          "url": "https://x.com/coach_bowman/status/2119903708322644189",
+          "summary": "Introduces the value of ordinary daily work."
+        },
+        {
+          "order": 2,
+          "url": "https://x.com/coach_bowman/status/2119903710083998019",
+          "summary": "Recalls Phelps sustaining a high practice average."
+        },
+        {
+          "order": 3,
+          "url": "https://x.com/coach_bowman/status/2119903711807909997",
+          "summary": "Contrasts occasional off days with prolonged drops in standard."
+        },
+        {
+          "order": 4,
+          "url": "https://x.com/coach_bowman/status/2119903714240795130",
+          "summary": "Describes how long slides can cancel out occasional strong days."
+        },
+        {
+          "order": 5,
+          "url": "https://x.com/coach_bowman/status/2119903717621469678",
+          "summary": "Encourages a dependable routine instead of waiting for perfection."
+        }
+      ],
+      "provenance": "Canonical X root and 5 author posts read on 2026-11-16 and cross-checked with the public mirror with-replies timeline. Third-party replies excluded. This verifies the recovered sequence, not account-wide completeness."
     }
   ],
   "archiveLedger": [
@@ -3015,13 +3752,563 @@
       "kind": "Authored post",
       "title": "Authored post · weekly source record",
       "note": "Recovered from public with-replies mirror; metadata only. Reaction/media/social items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121980762862067912",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121980762862067912#m",
+      "date": "2026-11-15",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121980759988896050",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121980759988896050#m",
+      "date": "2026-11-15",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121980757425967178",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121980757425967178#m",
+      "date": "2026-11-15",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121754278234628172",
+      "author": "readswithravi",
+      "url": "https://xitter.cf/readswithravi/status/2121754278234628172#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Repost",
+      "title": "Repost · third-party source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121746750717518105",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121746750717518105#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121716804380762489",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121716804380762489#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121716804082905114",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121716804082905114#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121716803789328757",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121716803789328757#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121716803520889174",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121716803520889174#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121656187036762152",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121656187036762152#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121656185547788437",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121656185547788437#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121656183987535986",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121656183987535986#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121656182477664703",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121656182477664703#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121411543036260771",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121411543036260771#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121411542742716751",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121411542742716751#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121411542356812265",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121411542356812265#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121411542092575227",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121411542092575227#m",
+      "date": "2026-11-14",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121384362897756243",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121384362897756243#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121384111306658193",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121384111306658193#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349441680556048",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349441680556048#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349439977836802",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349439977836802#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349437121302651",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349437121302651#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349435011563827",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349435011563827#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349433376084241",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349433376084241#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121349430901154135",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121349430901154135#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121045883668295831",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121045883668295831#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121045883399950797",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121045883399950797#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121045883106304155",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121045883106304155#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2121045882858774684",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2121045882858774684#m",
+      "date": "2026-11-13",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985072480264323",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985072480264323#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985070773375229",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985070773375229#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985068269174838",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985068269174838#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985066679455808",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985066679455808#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985064997892602",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985064997892602#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120985062334439898",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120985062334439898#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120893318410502290",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120893318410502290#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120689282947920287",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120689282947920287#m",
+      "date": "2026-11-12",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612481618108901",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612481618108901#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612478849843279",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612478849843279#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612476371022157",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612476371022157#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612473648894154",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612473648894154#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612471329493157",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612471329493157#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612468968009951",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612468968009951#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120612466094989672",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120612466094989672#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120328155806507298",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120328155806507298#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120328155512864887",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120328155512864887#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120328155236094314",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120328155236094314#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120328155026317325",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120328155026317325#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120328154275586061",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120328154275586061#m",
+      "date": "2026-11-11",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2120281680938147886",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2120281680938147886#m",
+      "date": "2026-11-10",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2119903717621469678",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2119903717621469678#m",
+      "date": "2026-11-09",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2119903714240795130",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2119903714240795130#m",
+      "date": "2026-11-09",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2119903711807909997",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2119903711807909997#m",
+      "date": "2026-11-09",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2119903710083998019",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2119903710083998019#m",
+      "date": "2026-11-09",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
+    },
+    {
+      "id": "2119903708322644189",
+      "author": "coach_bowman",
+      "url": "https://xitter.cf/coach_bowman/status/2119903708322644189#m",
+      "date": "2026-11-09",
+      "dateProvenance": "UTC date derived from X ID; mirror timestamp inspected.",
+      "kind": "Authored post",
+      "title": "Authored post · weekly source record",
+      "note": "Recovered from public with-replies mirror. Metadata only; social/reaction/repost/media items are not promoted to coaching lessons."
     }
   ],
-  "checkNote": "Nov9 check added12sourced summaries from Nov2-Nov8UTC with explicit ideas,situations,audience under the Nov5 contract. Eight public mirror pages through Oct24 cross-checked with canonical profile,12roots and author continuations. Quotes omitted when not needed. No complete-feed claim.",
+  "checkNote": "Nov16 check added15sourced summaries from Nov9-Nov15UTC with explicit ideas,situations,audience. Eleven public mirror pages through Oct23 cross-checked with canonical profile and15roots plus their author continuations. Quotes omitted when not needed. No complete-feed claim.",
   "gaps": [
     "Mirror discovery can omit items; reaching a known checkpoint does not rule out older gaps.",
     "Deleted/protected posts, hidden replies, unread images/video and unsurfaced thread parts remain outside verified coverage.",
-    "Signed-out canonical X gates reply display; continuation text for this weekly batch relies on the public mirror, cross-checked against canonical author status links.",
+    "Canonical root and author continuation text was readable for this batch; other hidden or unsurfaced replies may still be missing.",
     "Images and video are not transcribed or interpreted in this weekly batch."
   ]
 }
